@@ -1,0 +1,104 @@
+{
+  "es": {
+    "nav": {
+      "inicio": "Inicio",
+      "experiencia": "Experiencia",
+      "skills": "Skills",
+      "contacto": "Contacto"
+    },
+    "hero": {
+      "label": "Disponible para formación & consultoría",
+      "title_1": "Director",
+      "title_2": "de Tecnología",
+      "title_3": "& IA Generativa",
+      "subtitle": "Más de <strong>20 años</strong> liderando transformaciones digitales. CTO en <strong>Ardora Tech AI</strong>, especialista en <strong>IA Generativa</strong>, Big Data y arquitectura cloud.",
+      "stats_1": "Años experiencia",
+      "stats_2": "Clientes",
+      "stats_3": "Azure AI Cert.",
+      "btn_contact": "Contactar",
+      "btn_experience": "Ver trayectoria"
+    },
+    "speaker": {
+      "title": "Formación en",
+      "title_span": "IA Generativa",
+      "text": "Experiencia real aplicando <strong>LLMs, Azure AI y Copilot</strong> en entornos empresariales. Capacidad para transmitir conceptos complejos de IA con un enfoque práctico y orientado al negocio."
+    },
+    "experience": {
+      "tag": "Trayectoria",
+      "title": "Experiencia Profesional",
+      "subtitle": "Más de dos décadas construyendo soluciones tecnológicas de impacto"
+    },
+    "skills": {
+      "tag": "Competencias",
+      "title": "Stack Tecnológico",
+      "subtitle": "Dominio transversal desde la IA generativa hasta la gestión de equipos"
+    },
+    "clients": {
+      "title": "Clientes y Sectores",
+      "subtitle": "Empresas líderes que confían en mi experiencia",
+      "logistics": "Logística & Transporte",
+      "public": "Público & Corporativo"
+    },
+    "contact": {
+      "tag": "Conectemos",
+      "title": "¿Hablamos?",
+      "subtitle": "Abierto a colaboraciones en formación, consultoría e IA aplicada",
+      "visual_h3": "Haz que la <span>IA</span> trabaje para ti",
+      "visual_p": "Formación en IA Generativa, consultoría tecnológica y estrategia de transformación digital adaptada a tu organización.",
+      "email_label": "Email",
+      "location_label": "Ubicación",
+      "company_label": "Empresa actual"
+    }
+  },
+  "en": {
+    "nav": {
+      "inicio": "Home",
+      "experiencia": "Experience",
+      "skills": "Skills",
+      "contacto": "Contact"
+    },
+    "hero": {
+      "label": "Available for training & consulting",
+      "title_1": "Technology",
+      "title_2": "Director",
+      "title_3": "& Generative AI",
+      "subtitle": "Over <strong>20 years</strong> leading digital transformations. CTO at <strong>Ardora Tech AI</strong>, specialist in <strong>Generative AI</strong>, Big Data and cloud architecture.",
+      "stats_1": "Years experience",
+      "stats_2": "Clients",
+      "stats_3": "Azure AI Cert.",
+      "btn_contact": "Contact me",
+      "btn_experience": "View experience"
+    },
+    "speaker": {
+      "title": "Training in",
+      "title_span": "Generative AI",
+      "text": "Real-world experience applying <strong>LLMs, Azure AI and Copilot</strong> in corporate environments. Ability to convey complex AI concepts with a practical, business-oriented approach."
+    },
+    "experience": {
+      "tag": "Career",
+      "title": "Professional Experience",
+      "subtitle": "Over two decades building impactful technology solutions"
+    },
+    "skills": {
+      "tag": "Competencies",
+      "title": "Technology Stack",
+      "subtitle": "Cross-functional expertise from generative AI to team management"
+    },
+    "clients": {
+      "title": "Clients & Industries",
+      "subtitle": "Leading companies that trust my experience",
+      "logistics": "Logistics & Transportation",
+      "public": "Public & Corporate"
+    },
+    "contact": {
+      "tag": "Let's Connect",
+      "title": "Let's Talk?",
+      "subtitle": "Open to collaborations in training, consulting and applied AI",
+      "visual_h3": "Make <span>AI</span> work for you",
+      "visual_p": "Generative AI training, technology consulting and digital transformation strategy tailored to your organization.",
+      "email_label": "Email",
+      "location_label": "Location",
+      "company_label": "Current Company"
+    }
+  }
+}
