@@ -4,8 +4,12 @@
 <meta charset="UTF-8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 <title>Ángel Losada Rey — Director Técnico</title>
+<meta name="description" content="Ángel Losada Rey — Director Técnico. Más de 20 años en Business Intelligence, Big Data e IA Generativa. CTO en Altia Logistic Software."/>
+<meta name="theme-color" content="#ffffff"/>
+<link rel="icon" href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NCA2NCI+PHJlY3Qgd2lkdGg9IjY0IiBoZWlnaHQ9IjY0IiByeD0iMTQiIGZpbGw9IiMxZDFkMWYiLz48dGV4dCB4PSIzMiIgeT0iNDMiIGZvbnQtZmFtaWx5PSItYXBwbGUtc3lzdGVtLEhlbHZldGljYSxBcmlhbCxzYW5zLXNlcmlmIiBmb250LXNpemU9IjMwIiBmb250LXdlaWdodD0iNjAwIiBmaWxsPSIjZmZmZmZmIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIj5BTDwvdGV4dD48L3N2Zz4="/>
 <link rel="preconnect" href="https://fonts.googleapis.com"/>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet"/>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet"/>
 <style>
 :root {
   --bg: #ffffff;
@@ -356,6 +360,17 @@ footer {
   text-align: center; padding: 2rem; font-size: .8rem; color: var(--text-ter);
 }
 
+
+/* ── AJUSTES FINOS ── */
+section, .photo-break { scroll-margin-top: 60px; }
+h1, h2, h3, .job-title, .photo-break-text blockquote { text-wrap: balance; }
+.hero-subtitle, .section-header p, .speaker-text p,
+.job-bullets li, .contact-visual p { text-wrap: pretty; }
+.stat-item .stat-num { font-variant-numeric: tabular-nums; }
+.btn:active, #langBtn:active { transform: scale(.97); }
+a:focus-visible, button:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; }
+@media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
+
 /* ── RESPONSIVE ── */
 @media (max-width: 1024px) {
   .hero-content { grid-template-columns: 1fr; gap: 3rem; }
@@ -403,7 +418,7 @@ footer {
       <div class="hero-label" data-i18n="hero_badge">Disponible para formación &amp; consultoría</div>
       <h1><span class="accent" data-i18n="hero_title_main">Director Técnico</span></h1>
       <p class="hero-subtitle">
-        <span data-i18n-html="hero_subtitle">Más de <strong>20 años</strong> liderando transformaciones digitales como <strong>CTO</strong>, especialista en <strong>IA Generativa</strong>, Big Data y arquitectura cloud.</span>
+        <span data-i18n-html="hero_subtitle">Más de <strong>20 años</strong> liderando transformaciones digitales como <strong>CTO</strong>, especialista en <strong>Business Intelligence</strong>, Big Data e IA Generativa.</span>
       </p>
       <div class="hero-stats">
         <div class="stat-item"><div class="stat-num">20+</div><div class="stat-label" data-i18n="stat1">Años experiencia</div></div>
@@ -426,15 +441,17 @@ footer {
 <section id="speaker">
   <div class="speaker-content">
     <div class="speaker-text reveal-left">
-      <h2><span data-i18n="speaker_h2a">Formación en</span><br/><span data-i18n="speaker_h2b">IA Generativa</span></h2>
+      <h2><span data-i18n="speaker_h2a">Formación en</span><br/><span data-i18n="speaker_h2b">Business Intelligence e IA</span></h2>
       <p>
-        <span data-i18n-html="speaker_p">Experiencia real aplicando <strong>LLMs, Azure AI y Copilot</strong> en entornos empresariales. Capacidad para transmitir conceptos complejos de IA con un enfoque práctico y orientado al negocio.</span>
+        <span data-i18n-html="speaker_p">Más de una década dirigiendo proyectos de <strong>BI y analítica avanzada</strong> (OLAP, ETL, MicroStrategy, Metabase) y aplicando <strong>LLMs, Azure AI y Copilot</strong> en entornos empresariales. Capacidad para transmitir conceptos complejos con un enfoque práctico y orientado al negocio.</span>
       </p>
     </div>
     <div class="speaker-certs reveal-right stagger">
       <div class="cert-badge" style="--i:0"><div class="cert-icon">&#x1F4CA;</div><div><div class="cert-title" data-i18n="cert2_title">Máster Big Data &amp; Analítica</div><div class="cert-sub">IFFE Business School · 600h · 2021</div></div></div>
       <div class="cert-badge" style="--i:1"><div class="cert-icon">&#x2728;</div><div><div class="cert-title" data-i18n="cert3_title">Microsoft Copilot Best Practices</div><div class="cert-sub">Altia Consultores · 2025</div></div></div>
       <div class="cert-badge" style="--i:2"><div class="cert-icon">&#x1F3AF;</div><div><div class="cert-title" data-i18n="cert4_title">Scrum Master Nivel Experto</div><div class="cert-sub">Scrum Manager · 2019</div></div></div>
+      <div class="cert-badge" style="--i:3"><div class="cert-icon">&#x1F512;</div><div><div class="cert-title" data-i18n="cert5_title">Seguridad y Protección de Datos</div><div class="cert-sub">Altia Consultores · 2020</div></div></div>
+      <div class="cert-badge" style="--i:4"><div class="cert-icon">&#x1F3A4;</div><div><div class="cert-title" data-i18n="cert6_title">Presentaciones Eficaces para Directores</div><div class="cert-sub">Vitae Consultores · 2015</div></div></div>
     </div>
   </div>
 </section>
@@ -503,10 +520,10 @@ footer {
     <div class="section-header reveal">
       <div class="section-tag" data-i18n="skills_tag">Competencias</div>
       <h2 data-i18n="skills_h2">Stack Tecnológico</h2>
-      <p data-i18n="skills_sub">Dominio transversal desde la IA generativa hasta la gestión de equipos</p>
+      <p data-i18n="skills_sub">Dominio transversal desde el Business Intelligence hasta la gestión de equipos</p>
     </div>
     <div class="skills-grid stagger">
-      <div class="skill-card highlight reveal" style="--i:0"><div class="skill-icon">&#x1F916;</div><h3 data-i18n="sk1_title">IA &amp; Big Data</h3><div class="skill-tags"><span class="tag">Azure AI</span><span class="tag">Generative AI</span><span class="tag">LLMs</span><span class="tag">Big Data</span><span class="tag">ETL / Talend</span><span class="tag">OLAP</span><span class="tag">MicroStrategy</span><span class="tag">Metabase</span><span class="tag">MongoDB</span></div></div>
+      <div class="skill-card highlight reveal" style="--i:0"><div class="skill-icon">&#x1F916;</div><h3 data-i18n="sk1_title">Business Intelligence &amp; Big Data</h3><div class="skill-tags"><span class="tag">OLAP</span><span class="tag">ETL / Talend</span><span class="tag">MicroStrategy</span><span class="tag">Metabase</span><span class="tag">Big Data</span><span class="tag">Azure AI</span><span class="tag">Generative AI</span><span class="tag">LLMs</span><span class="tag">MongoDB</span></div></div>
       <div class="skill-card reveal" style="--i:1"><div class="skill-icon">&#x2699;&#xFE0F;</div><h3 data-i18n="sk2_title">Backend</h3><div class="skill-tags"><span class="tag">Java</span><span class="tag">C#.NET</span><span class="tag">ASP.NET</span><span class="tag">Spring Boot</span><span class="tag">Hibernate</span><span class="tag">PHP</span><span class="tag">PL-SQL</span><span class="tag">T-SQL</span></div></div>
       <div class="skill-card reveal" style="--i:2"><div class="skill-icon">&#x1F310;</div><h3 data-i18n="sk3_title">Frontend &amp; Mobile</h3><div class="skill-tags"><span class="tag">HTML5</span><span class="tag">CSS3</span><span class="tag">JavaScript</span><span class="tag">jQuery</span><span class="tag">Bootstrap</span><span class="tag">Cordova</span><span class="tag">Android</span></div></div>
       <div class="skill-card reveal" style="--i:3"><div class="skill-icon">&#x1F5C4;&#xFE0F;</div><h3 data-i18n="sk4_title">Bases de Datos</h3><div class="skill-tags"><span class="tag">SQL Server</span><span class="tag">MongoDB</span><span class="tag">Oracle</span><span class="tag">DB2</span><span class="tag">MySQL</span></div></div>
@@ -622,15 +639,16 @@ const translations = {
     // HERO
     hero_badge:"Disponible para formación & consultoría",
     hero_title_main:"Director Técnico",hero_title_sub:"",
-    hero_subtitle:"Más de <strong>20 años</strong> liderando transformaciones digitales como <strong>CTO</strong>, especialista en <strong>IA Generativa</strong>, Big Data y arquitectura cloud.",
+    hero_subtitle:"Más de <strong>20 años</strong> liderando transformaciones digitales como <strong>CTO</strong>, especialista en <strong>Business Intelligence</strong>, Big Data e IA Generativa.",
     stat1:"Años experiencia", stat2:"Clientes", stat3:"Sectores",
     btn_contact:"Contactar →", btn_exp:"Ver trayectoria", btn_download:"⬇ Descargar CV",
     // SPEAKER
-    speaker_h2a:"Formación en", speaker_h2b:"IA Generativa",
-    speaker_p:"Experiencia real aplicando <strong>LLMs, Azure AI y Copilot</strong> en entornos empresariales. Capacidad para transmitir conceptos complejos de IA con un enfoque práctico y orientado al negocio.",
+    speaker_h2a:"Formación en", speaker_h2b:"Business Intelligence e IA",
+    speaker_p:"Más de una década dirigiendo proyectos de <strong>BI y analítica avanzada</strong> (OLAP, ETL, MicroStrategy, Metabase) y aplicando <strong>LLMs, Azure AI y Copilot</strong> en entornos empresariales. Capacidad para transmitir conceptos complejos con un enfoque práctico y orientado al negocio.",
     cert2_title:"Máster Big Data & Analítica",
     cert3_title:"Microsoft Copilot Best Practices",
     cert4_title:"Scrum Master Nivel Experto",
+    cert5_title:"Seguridad y Protección de Datos", cert6_title:"Presentaciones Eficaces para Directores",
     // EXPERIENCIA
     exp_tag:"Trayectoria", exp_h2:"Experiencia Profesional",
     exp_sub:"Más de dos décadas construyendo soluciones tecnológicas de impacto",
@@ -649,8 +667,8 @@ const translations = {
     quote:"&ldquo;La tecnología por sí sola no transforma. Lo hace <span>la visión</span> de quienes la aplican.&rdquo;",
     // SKILLS
     skills_tag:"Competencias", skills_h2:"Stack Tecnológico",
-    skills_sub:"Dominio transversal desde la IA generativa hasta la gestión de equipos",
-    sk1_title:"IA & Big Data", sk2_title:"Backend", sk3_title:"Frontend & Mobile",
+    skills_sub:"Dominio transversal desde el Business Intelligence hasta la gestión de equipos",
+    sk1_title:"Business Intelligence & Big Data", sk2_title:"Backend", sk3_title:"Frontend & Mobile",
     sk4_title:"Bases de Datos", sk5_title:"Arquitectura & Cloud", sk6_title:"Gestión & Metodologías",
     // CLIENTS
     clients_h2:"Clientes y Sectores", clients_sub:"Empresas líderes que confían en mi experiencia",
@@ -670,15 +688,16 @@ const translations = {
     // HERO
     hero_badge:"Available for training & consulting",
     hero_title_main:"Technical Director",hero_title_sub:"",
-    hero_subtitle:"Over <strong>20 years</strong> leading digital transformations as <strong>CTO</strong>, specialist in <strong>Generative AI</strong>, Big Data and cloud architecture.",
+    hero_subtitle:"Over <strong>20 years</strong> leading digital transformations as <strong>CTO</strong>, specialist in <strong>Business Intelligence</strong>, Big Data and Generative AI.",
     stat1:"Years of experience", stat2:"Clients", stat3:"Máster Big Data",
     btn_contact:"Contact me →", btn_exp:"View experience", btn_download:"⬇ Download CV",
     // SPEAKER
-    speaker_h2a:"Training in", speaker_h2b:"Generative AI",
-    speaker_p:"Real-world experience applying <strong>LLMs, Azure AI and Copilot</strong> in corporate environments. Ability to convey complex AI concepts with a practical, business-oriented approach.",
+    speaker_h2a:"Training in", speaker_h2b:"Business Intelligence & AI",
+    speaker_p:"Over a decade leading <strong>BI and advanced analytics</strong> projects (OLAP, ETL, MicroStrategy, Metabase) and applying <strong>LLMs, Azure AI and Copilot</strong> in corporate environments. Ability to convey complex concepts with a practical, business-oriented approach.",
     cert2_title:"Master's in Big Data & Analytics",
     cert3_title:"Microsoft Copilot Best Practices",
     cert4_title:"Expert Scrum Master",
+    cert5_title:"Data Security & Protection", cert6_title:"Effective Presentations for Managers",
     // EXPERIENCIA
     exp_tag:"Career", exp_h2:"Professional Experience",
     exp_sub:"Over two decades building impactful technology solutions",
@@ -697,8 +716,8 @@ const translations = {
     quote:"&ldquo;Technology alone doesn't transform. It's <span>the vision</span> of those who apply it.&rdquo;",
     // SKILLS
     skills_tag:"Competencies", skills_h2:"Technology Stack",
-    skills_sub:"Cross-functional expertise from generative AI to team management",
-    sk1_title:"AI & Big Data", sk2_title:"Backend", sk3_title:"Frontend & Mobile",
+    skills_sub:"Cross-functional expertise from Business Intelligence to team management",
+    sk1_title:"Business Intelligence & Big Data", sk2_title:"Backend", sk3_title:"Frontend & Mobile",
     sk4_title:"Databases", sk5_title:"Architecture & Cloud", sk6_title:"Management & Methodologies",
     // CLIENTS
     clients_h2:"Clients & Industries", clients_sub:"Leading companies that trust my expertise",
